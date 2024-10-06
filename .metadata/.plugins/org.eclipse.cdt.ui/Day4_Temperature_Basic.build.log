@@ -1,0 +1,8 @@
+16:26:54 **** Incremental Build of configuration Debug for project Day4_Temperature_Basic ****
+make -r -j8 all 
+arm-none-eabi-size --format=berkeley "Day4_Temperature_Basic.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11932	    124	   2588	  14644	   3934	Day4_Temperature_Basic.elf
+
+16:26:55 Build Finished. 0 errors, 0 warnings. (took 803ms)
+

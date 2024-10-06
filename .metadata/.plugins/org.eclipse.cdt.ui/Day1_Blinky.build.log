@@ -1,8 +1,11 @@
-01:14:26 **** Incremental Build of configuration Debug for project Day1_Blinky ****
+15:22:31 **** Build of configuration Debug for project Day1_Blinky ****
 make -r -j8 all 
+Building file: ../src/hal_entry.c
+Building target: Day1_Blinky.elf
+arm-none-eabi-objcopy -O srec "Day1_Blinky.elf"  "Day1_Blinky.srec"
 arm-none-eabi-size --format=berkeley "Day1_Blinky.elf"
    text	   data	    bss	    dec	    hex	filename
    3104	      8	   1176	   4288	   10c0	Day1_Blinky.elf
 
-01:14:27 Build Finished. 0 errors, 0 warnings. (took 892ms)
+15:22:32 Build Finished. 0 errors, 0 warnings. (took 1s.38ms)
 

@@ -18,11 +18,11 @@ extern bsp_leds_t g_bsp_leds;
  **********************************************************************************************************************/
 void hal_entry (void)
 {
-#if BSP_TZ_SECURE_BUILD
+    #if BSP_TZ_SECURE_BUILD
 
-    /* Enter non-secure code */
-    R_BSP_NonSecureEnter();
-#endif
+        /* Enter non-secure code */
+        R_BSP_NonSecureEnter();
+    #endif
 
     /* Define the units to be used with the software delay function */
     const bsp_delay_units_t bsp_delay_units = BSP_DELAY_UNITS_MILLISECONDS;

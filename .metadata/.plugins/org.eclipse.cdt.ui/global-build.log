@@ -1,39 +1,69 @@
 Extracting support files...
-15:26:24 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
+16:26:31 **** Build of configuration Debug for project Day4_Temperature_Basic ****
 make -r -j8 all 
 Building file: ../src/hal_entry.c
-Building target: Day4_Nhiptim.elf
-arm-none-eabi-objcopy -O srec "Day4_Nhiptim.elf"  "Day4_Nhiptim.srec"
-arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
+Building file: ../ra_gen/common_data.c
+Building file: ../ra_gen/hal_data.c
+Building file: ../ra_gen/main.c
+Building file: ../ra_gen/pin_data.c
+Building file: ../ra_gen/vector_data.c
+Building file: ../ra/fsp/src/r_sci_uart/r_sci_uart.c
+Building file: ../ra/fsp/src/r_sci_spi/r_sci_spi.c
+Building file: ../ra/fsp/src/r_ioport/r_ioport.c
+../src/hal_entry.c: In function 'hal_entry':
+../src/hal_entry.c:47:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   47 |     sprintf(write_buffer, "SPI entry\r\n");
+      |     ^~~~~~~
+../src/hal_entry.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "hal_data.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../src/hal_entry.c:47:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+   47 |     sprintf(write_buffer, "SPI entry\r\n");
+      |     ^~~~~~~
+../src/hal_entry.c:47:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+Building file: ../ra/fsp/src/r_dtc/r_dtc.c
+../src/hal_entry.c:62:36: warning: conversion from 'float' to 'uint8_t' {aka 'unsigned char'} may change value [-Wfloat-conversion]
+   62 |             uint8_t integer_part = temperature / 1;
+      |                                    ^~~~~~~~~~~
+../src/hal_entry.c:63:36: warning: conversion from 'float' to 'uint8_t' {aka 'unsigned char'} may change value [-Wfloat-conversion]
+   63 |             uint8_t decimal_part = (temperature - integer_part) * 100;
+      |                                    ^
+../src/hal_entry.c:43:11: warning: unused variable 'MAX6675_temperature_value' [-Wunused-variable]
+   43 |     float MAX6675_temperature_value = 0;
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/hal_entry.c:41:20: warning: unused variable 'delay' [-Wunused-variable]
+   41 |     const uint32_t delay = bsp_delay_units / freq_in_hz;
+      |                    ^~~~~
+../src/hal_entry.c: In function 'read_celsius':
+../src/hal_entry.c:166:14: warning: conversion from 'double' to 'float' may change value [-Wfloat-conversion]
+  166 |     return v * 0.25;
+      |            ~~^~~~~~
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_clocks.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_common.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_delay.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_group_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_guard.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_io.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_macl.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_register_protection.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_rom_registers.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sbrk.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sdram.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_security.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.c
+Building file: ../ra/board/ra6m5_ck/board_init.c
+Building file: ../ra/board/ra6m5_ck/board_leds.c
+Building target: Day4_Temperature_Basic.elf
+arm-none-eabi-objcopy -O srec "Day4_Temperature_Basic.elf"  "Day4_Temperature_Basic.srec"
+arm-none-eabi-size --format=berkeley "Day4_Temperature_Basic.elf"
    text	   data	    bss	    dec	    hex	filename
-  14804	    172	   2108	  17084	   42bc	Day4_Nhiptim.elf
+  11932	    124	   2588	  14644	   3934	Day4_Temperature_Basic.elf
 Extracting support files...
-15:26:31 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
+16:26:54 **** Incremental Build of configuration Debug for project Day4_Temperature_Basic ****
 make -r -j8 all 
-arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
+arm-none-eabi-size --format=berkeley "Day4_Temperature_Basic.elf"
    text	   data	    bss	    dec	    hex	filename
-  14804	    172	   2108	  17084	   42bc	Day4_Nhiptim.elf
-Extracting support files...
-15:27:13 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
-make -r -j8 all 
-Building file: ../src/hal_entry.c
-Building target: Day4_Nhiptim.elf
-arm-none-eabi-objcopy -O srec "Day4_Nhiptim.elf"  "Day4_Nhiptim.srec"
-arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
-   text	   data	    bss	    dec	    hex	filename
-  14804	    172	   2108	  17084	   42bc	Day4_Nhiptim.elf
-Extracting support files...
-15:49:23 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
-make -r -j8 all 
-Building file: ../src/hal_entry.c
-Building target: Day4_Nhiptim.elf
-arm-none-eabi-objcopy -O srec "Day4_Nhiptim.elf"  "Day4_Nhiptim.srec"
-arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
-   text	   data	    bss	    dec	    hex	filename
-  14772	    172	   2108	  17052	   429c	Day4_Nhiptim.elf
-Extracting support files...
-15:49:47 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
-make -r -j8 all 
-arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
-   text	   data	    bss	    dec	    hex	filename
-  14772	    172	   2108	  17052	   429c	Day4_Nhiptim.elf
+  11932	    124	   2588	  14644	   3934	Day4_Temperature_Basic.elf

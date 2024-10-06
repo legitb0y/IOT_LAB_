@@ -1,11 +1,8 @@
-02:18:13 **** Incremental Build of configuration Debug for project Day1_Blinky_One_By_One_Ignore_RGB_LED ****
+15:24:28 **** Build of configuration Debug for project Day1_Blinky_One_By_One_Ignore_RGB_LED ****
 make -r -j8 all 
-Building file: ../src/hal_entry.c
-Building target: Day1_Blinky_One_By_One_Ignore_RGB_LED.elf
-arm-none-eabi-objcopy -O srec "Day1_Blinky_One_By_One_Ignore_RGB_LED.elf"  "Day1_Blinky_One_By_One_Ignore_RGB_LED.srec"
 arm-none-eabi-size --format=berkeley "Day1_Blinky_One_By_One_Ignore_RGB_LED.elf"
    text	   data	    bss	    dec	    hex	filename
    3256	      8	   1176	   4440	   1158	Day1_Blinky_One_By_One_Ignore_RGB_LED.elf
 
-02:18:14 Build Finished. 0 errors, 0 warnings. (took 1s.1ms)
+15:24:29 Build Finished. 0 errors, 0 warnings. (took 791ms)
 

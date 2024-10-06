@@ -3,7 +3,7 @@
 ################################################################################
 
 arg1 = $(1)
-export PATH=/home/xenwithu/renesas/ra/e2studio_v2024-04_fsp_v5.4.0/toolchains/gcc_arm/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/bin/:/home/xenwithu/renesas/ra/e2studio_v2024-04_fsp_v5.4.0/eclipse/plugins/com.renesas.ide.exttools.gnumake.linux.x86_64_1.0.0.v20220121-1024/mk/:/home/xenwithu/bin:/home/xenwithu/.local/bin:/usr/local/bin:/home/xenwithu/.nvm/versions/node/v20.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+export PATH=/home/xenwithu/renesas/ra/e2studio_v2024-04_fsp_v5.4.0/toolchains/gcc_arm/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/bin/:/home/xenwithu/renesas/ra/e2studio_v2024-04_fsp_v5.4.0/eclipse/plugins/com.renesas.ide.exttools.gnumake.linux.x86_64_1.0.0.v20220121-1024/mk/:/home/xenwithu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xenwithu/.local/share/JetBrains/Toolbox/scripts
 export TCINSTALL=/home/xenwithu/renesas/ra/e2studio_v2024-04_fsp_v5.4.0/toolchains/gcc_arm/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/
 export CWD=$(CURDIR)
 export TC_VERSION=13.2.1.arm-13-7

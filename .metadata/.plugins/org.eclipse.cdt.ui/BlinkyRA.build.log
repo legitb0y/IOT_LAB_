@@ -1,0 +1,35 @@
+15:21:07 **** Build of configuration Debug for project BlinkyRA ****
+make -r -j8 all 
+Building file: ../src/hal_entry.c
+Building file: ../ra_gen/common_data.c
+Building file: ../ra_gen/hal_data.c
+Building file: ../ra_gen/main.c
+Building file: ../ra_gen/pin_data.c
+Building file: ../ra_gen/vector_data.c
+Building file: ../ra/fsp/src/r_sci_uart/r_sci_uart.c
+Building file: ../ra/fsp/src/r_ioport/r_ioport.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_clocks.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_common.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_delay.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_group_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_guard.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_io.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_macl.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_register_protection.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_rom_registers.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sbrk.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sdram.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_security.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.c
+Building file: ../ra/board/ra6m5_ck/board_init.c
+Building file: ../ra/board/ra6m5_ck/board_leds.c
+Building target: BlinkyRA.elf
+arm-none-eabi-objcopy -O srec "BlinkyRA.elf"  "BlinkyRA.srec"
+arm-none-eabi-size --format=berkeley "BlinkyRA.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4084	      8	   1560	   5652	   1614	BlinkyRA.elf
+
+15:21:09 Build Finished. 0 errors, 0 warnings. (took 2s.301ms)
+
