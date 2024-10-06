@@ -1,8 +1,11 @@
-16:26:54 **** Incremental Build of configuration Debug for project Day4_Temperature_Basic ****
+17:03:31 **** Incremental Build of configuration Debug for project Day4_Temperature_Basic ****
 make -r -j8 all 
+Building file: ../ra_gen/hal_data.c
+Building target: Day4_Temperature_Basic.elf
+arm-none-eabi-objcopy -O srec "Day4_Temperature_Basic.elf"  "Day4_Temperature_Basic.srec"
 arm-none-eabi-size --format=berkeley "Day4_Temperature_Basic.elf"
    text	   data	    bss	    dec	    hex	filename
   11932	    124	   2588	  14644	   3934	Day4_Temperature_Basic.elf
 
-16:26:55 Build Finished. 0 errors, 0 warnings. (took 803ms)
+17:03:32 Build Finished. 0 errors, 0 warnings. (took 907ms)
 

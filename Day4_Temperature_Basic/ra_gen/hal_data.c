@@ -86,8 +86,8 @@ sci_spi_instance_ctrl_t g_spi0_ctrl;
 const sci_spi_extended_cfg_t g_spi0_cfg_extend =
 { .clk_div =
 {
-/* Actual calculated bitrate: 9600. */.cks = 2,
-  .brr = 102, .mddr = 162, } };
+/* Actual calculated bitrate: 115199. */.cks = 0,
+  .brr = 166, .mddr = 197, } };
 
 const spi_cfg_t g_spi0_cfg =
 { .channel = 0, .operating_mode = SPI_MODE_MASTER, .clk_phase = SPI_CLK_PHASE_EDGE_ODD, .clk_polarity =

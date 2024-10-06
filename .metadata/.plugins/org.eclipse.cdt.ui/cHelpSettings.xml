@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <cHelpSettings>
-                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                        
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -63,7 +70,14 @@
     
     
     <project name="Day1_Blinky">
-                                                                                        
+                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -74,7 +88,14 @@
         
         
         <provider id="org.eclipse.cdt.ui.provider1"/>
-                                                                                        
+                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -85,7 +106,14 @@
         
         
         <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
-                                                                                    
+                                                                                                                                            
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -96,11 +124,18 @@
     
     
     </project>
-                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                    
 
 
 
 
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -159,7 +194,14 @@
     
     
     <project name="Day1_Blinky_one_by_one">
-                                                                                
+                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -169,7 +211,14 @@
         
         
         <provider id="org.eclipse.cdt.ui.provider1"/>
-                                                                                
+                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -179,7 +228,14 @@
         
         
         <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
-                                                                            
+                                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -189,9 +245,16 @@
     
     
     </project>
-                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                
 
 
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -247,7 +310,14 @@
     
     
     <project name="Day1_Blinky_One_By_One_Ignore_RGB_LED">
-                                                                        
+                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -256,7 +326,14 @@
         
         
         <provider id="org.eclipse.cdt.ui.provider1"/>
-                                                                        
+                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -265,7 +342,348 @@
         
         
         <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
-                                                                    
+                                                                                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </project>
+                                                                                                                                                                                                                                                    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <project name="Day1_Blinky_One_By_One_RGB_Same">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </project>
+                                                                                                                                                                                                                                        
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <project name="Day1_Blinky_One_By_One_RGB_Same_">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -328,43 +746,8 @@
     
     
     
-    <project name="Day1_Blinky_One_By_One_RGB_Same">
-                                                                                                                                                                                                                                                                                                                                                                                                        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    <project name="Day2_Log_Blicky_One_By_One_RGB_Same">
+                                                                                                                
         
         
         
@@ -378,42 +761,7 @@
         
         
         <provider id="org.eclipse.cdt.ui.provider1"/>
-                                                                                                                                                                                                                                                                                                                                                                                                        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+                                                                                                                
         
         
         
@@ -427,42 +775,7 @@
         
         
         <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
-                                                                                                                                                                                                                                                                                                                                                                                                    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+                                                                                                            
     
     
     
@@ -480,79 +793,6 @@
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <project name="Day1_Blinky_One_By_One_RGB_Same_">
-                                                                
-        
-        
-        
-        
-        
-        
-        <provider id="org.eclipse.cdt.ui.provider1"/>
-                                                                
-        
-        
-        
-        
-        
-        
-        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
-                                                            
-    
-    
-    
-    
-    
-    
-    </project>
-                                                                                                                                                                                            
 
 
     
@@ -562,71 +802,6 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <project name="Day2_Log_Blicky_One_By_One_RGB_Same">
-                                                        
-        
-        
-        
-        
-        
-        <provider id="org.eclipse.cdt.ui.provider1"/>
-                                                        
-        
-        
-        
-        
-        
-        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
-                                                    
-    
-    
-    
-    
-    
-    </project>
-                                                                                                                                                                                
-
-
-
-
-
     
     
     
@@ -666,120 +841,6 @@
     
     
     <project name="Daty3_Humidity_N_Temperature">
-                                                
-        
-        
-        
-        
-        <provider id="org.eclipse.cdt.ui.provider1"/>
-                                                
-        
-        
-        
-        
-        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
-                                            
-    
-    
-    
-    
-    </project>
-                                                                                                                                                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <project name="Day4_Nhiptim">
-                                                                                                
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <provider id="org.eclipse.cdt.ui.provider1"/>
-                                                                                                
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
-                                                                                            
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </project>
-                                                                                
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <project name="BlinkyRA">
                                                                                                         
         
         
@@ -819,7 +880,7 @@
     
     
     </project>
-                                                
+                                                                                                                                                                                    
 
 
 
@@ -827,6 +888,204 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <project name="Day4_Nhiptim">
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
+                                                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </project>
+                                                                                                            
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <project name="BlinkyRA">
+                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+                                                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
+                                                                                                                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </project>
+                                                                            
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -835,7 +1094,30 @@
         <provider id="org.eclipse.cdt.ui.provider1"/>
         <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
     </project>
-                
+                                            
+
+
+
+
+    
+    
+    
+    
+    
+    
+    <project name="Day4_Temperature_Overheating_Warning_Light">
+                        
+        
+        <provider id="org.eclipse.cdt.ui.provider1"/>
+                        
+        
+        <provider id="org.eclipse.linuxtools.cdt.libhover.provider"/>
+                    
+    
+    </project>
+                        
+
+
 
 
 

@@ -12,6 +12,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/xenwithu/e2_studio/workspace/Day4_Temperature_Overheating_Warning_Light"/>
+			<item value="/home/xenwithu/Documents/sm/sm9/IoT/IoT-Examples"/>
 			<item value="/home/xenwithu/e2_studio/workspace/Daty3_Humidity_N_Temperature_Input"/>
 		</list>
 	</section>

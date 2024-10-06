@@ -1,0 +1,39 @@
+17:24:24 **** Incremental Build of configuration Debug for project Day4_Temperature_Overheating_Warning_Light ****
+make -r -j8 all 
+Building file: ../src/hal_entry.c
+../src/hal_entry.c: In function 'hal_entry':
+../src/hal_entry.c:50:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   50 |     sprintf(write_buffer, "SPI entry\r\n");
+      |     ^~~~~~~
+../src/hal_entry.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "hal_data.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../src/hal_entry.c:50:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+   50 |     sprintf(write_buffer, "SPI entry\r\n");
+      |     ^~~~~~~
+../src/hal_entry.c:50:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../src/hal_entry.c:83:36: warning: conversion from 'float' to 'uint8_t' {aka 'unsigned char'} may change value [-Wfloat-conversion]
+   83 |             uint8_t integer_part = temperature / 1;
+      |                                    ^~~~~~~~~~~
+../src/hal_entry.c:84:36: warning: conversion from 'float' to 'uint8_t' {aka 'unsigned char'} may change value [-Wfloat-conversion]
+   84 |             uint8_t decimal_part = (temperature - integer_part) * 100;
+      |                                    ^
+../src/hal_entry.c:46:11: warning: unused variable 'MAX6675_temperature_value' [-Wunused-variable]
+   46 |     float MAX6675_temperature_value = 0;
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/hal_entry.c:41:20: warning: unused variable 'delay' [-Wunused-variable]
+   41 |     const uint32_t delay = bsp_delay_units / freq_in_hz;
+      |                    ^~~~~
+../src/hal_entry.c: In function 'read_celsius':
+../src/hal_entry.c:188:14: warning: conversion from 'double' to 'float' may change value [-Wfloat-conversion]
+  188 |     return v * 0.25;
+      |            ~~^~~~~~
+Building target: Day4_Temperature_Overheating_Warning_Light.elf
+arm-none-eabi-objcopy -O srec "Day4_Temperature_Overheating_Warning_Light.elf"  "Day4_Temperature_Overheating_Warning_Light.srec"
+arm-none-eabi-size --format=berkeley "Day4_Temperature_Overheating_Warning_Light.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12080	    124	   2588	  14792	   39c8	Day4_Temperature_Overheating_Warning_Light.elf
+
+17:24:25 Build Finished. 0 errors, 7 warnings. (took 1s.6ms)
+
