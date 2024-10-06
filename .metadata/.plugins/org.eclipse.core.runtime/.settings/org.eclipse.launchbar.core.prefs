@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Daty3_Humidity_N_Temperature\ Debug_Flat/activeLaunchMode=debug
+com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Daty3_Humidity_N_Temperature\ Debug_Flat/activeLaunchTarget=null\:---
+com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Day1_Blinky\ Debug_Flat/activeLaunchMode=debug
+com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Day1_Blinky\ Debug_Flat/activeLaunchTarget=null\:---
+configDescList=com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Daty3_Humidity_N_Temperature Debug_Flat,com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Day1_Blinky Debug_Flat,com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Day1_Blinky_One_By_One_Ignore_RGB_LED Debug_Flat,com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Day1_Blinky_One_By_One_RGB_Same_ Debug_Flat,com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Day1_Blinky_one_by_one Debug_Flat,com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Day2_Log_Blicky_One_By_One_RGB_Same Debug_Flat,com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:Day4_Nhiptim Debug_Flat
+eclipse.preferences.version=1

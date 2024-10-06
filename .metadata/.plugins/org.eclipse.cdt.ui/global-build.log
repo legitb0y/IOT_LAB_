@@ -1,0 +1,39 @@
+Extracting support files...
+15:26:24 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
+make -r -j8 all 
+Building file: ../src/hal_entry.c
+Building target: Day4_Nhiptim.elf
+arm-none-eabi-objcopy -O srec "Day4_Nhiptim.elf"  "Day4_Nhiptim.srec"
+arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14804	    172	   2108	  17084	   42bc	Day4_Nhiptim.elf
+Extracting support files...
+15:26:31 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
+make -r -j8 all 
+arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14804	    172	   2108	  17084	   42bc	Day4_Nhiptim.elf
+Extracting support files...
+15:27:13 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
+make -r -j8 all 
+Building file: ../src/hal_entry.c
+Building target: Day4_Nhiptim.elf
+arm-none-eabi-objcopy -O srec "Day4_Nhiptim.elf"  "Day4_Nhiptim.srec"
+arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14804	    172	   2108	  17084	   42bc	Day4_Nhiptim.elf
+Extracting support files...
+15:49:23 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
+make -r -j8 all 
+Building file: ../src/hal_entry.c
+Building target: Day4_Nhiptim.elf
+arm-none-eabi-objcopy -O srec "Day4_Nhiptim.elf"  "Day4_Nhiptim.srec"
+arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14772	    172	   2108	  17052	   429c	Day4_Nhiptim.elf
+Extracting support files...
+15:49:47 **** Incremental Build of configuration Debug for project Day4_Nhiptim ****
+make -r -j8 all 
+arm-none-eabi-size --format=berkeley "Day4_Nhiptim.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14772	    172	   2108	  17052	   429c	Day4_Nhiptim.elf

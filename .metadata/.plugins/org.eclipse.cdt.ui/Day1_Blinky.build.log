@@ -1,0 +1,8 @@
+01:14:26 **** Incremental Build of configuration Debug for project Day1_Blinky ****
+make -r -j8 all 
+arm-none-eabi-size --format=berkeley "Day1_Blinky.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3104	      8	   1176	   4288	   10c0	Day1_Blinky.elf
+
+01:14:27 Build Finished. 0 errors, 0 warnings. (took 892ms)
+

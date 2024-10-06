@@ -1,0 +1,30 @@
+01:11:56 **** Incremental Build of configuration Debug for project Day1_Blinky_One_By_One_RGB_Same ****
+make -r all 
+Building file: ../src/hal_entry.c
+../src/hal_entry.c:11:8: error: unknown type name 'bsp_leds_t'
+   11 | extern bsp_leds_t g_bsp_leds;
+      |        ^~~~~~~~~~
+../src/hal_entry.c: In function 'hal_entry':
+../src/hal_entry.c:37:5: error: unknown type name 'bsp_leds_t'
+   37 |     bsp_leds_t leds = g_bsp_leds;
+      |     ^~~~~~~~~~
+../src/hal_entry.c:40:18: error: request for member 'led_count' in something not a structure or union
+   40 |     if (0 == leds.led_count)
+      |                  ^
+../src/hal_entry.c:48:36: error: request for member 'p_leds' in something not a structure or union
+   48 |     uint32_t three_color_pin = leds.p_leds[3];
+      |                                    ^
+../src/hal_entry.c:59:38: error: request for member 'led_count' in something not a structure or union
+   59 |         for (uint32_t i = 0; i < leds.led_count && i!=3; i++)
+      |                                      ^
+../src/hal_entry.c:62:32: error: request for member 'p_leds' in something not a structure or union
+   62 |             uint32_t pin = leds.p_leds[i];
+      |                                ^
+../src/hal_entry.c:37:16: warning: variable 'leds' set but not used [-Wunused-but-set-variable]
+   37 |     bsp_leds_t leds = g_bsp_leds;
+      |                ^~~~
+make: *** [src/subdir.mk:25: src/hal_entry.o] Error 1
+"make -r all" terminated with exit code 2. Build might be incomplete.
+
+01:11:57 Build Failed. 7 errors, 1 warnings. (took 893ms)
+

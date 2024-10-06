@@ -1,0 +1,29 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../ra/fsp/src/rm_ob1203/rm_ob1203.c \
+../ra/fsp/src/rm_ob1203/rm_ob1203_ra_driver.c 
+
+C_DEPS += \
+./ra/fsp/src/rm_ob1203/rm_ob1203.d \
+./ra/fsp/src/rm_ob1203/rm_ob1203_ra_driver.d 
+
+OBJS += \
+./ra/fsp/src/rm_ob1203/rm_ob1203.o \
+./ra/fsp/src/rm_ob1203/rm_ob1203_ra_driver.o 
+
+SREC += \
+Day4_Nhiptim.srec 
+
+MAP += \
+Day4_Nhiptim.map 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+ra/fsp/src/rm_ob1203/%.o: ../ra/fsp/src/rm_ob1203/%.c
+	$(file > $@.in,-mcpu=cortex-m33 -mthumb -mfloat-abi=hard -mfpu=fpv5-sp-d16 -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal -g -D_RENESAS_RA_ -D_RA_CORE=CM33 -D_RA_ORDINAL=1 -I"/home/xenwithu/e2_studio/workspace/Day4_Nhiptim/src" -I"." -I"/home/xenwithu/e2_studio/workspace/Day4_Nhiptim/ra/fsp/inc" -I"/home/xenwithu/e2_studio/workspace/Day4_Nhiptim/ra/fsp/inc/api" -I"/home/xenwithu/e2_studio/workspace/Day4_Nhiptim/ra/fsp/inc/instances" -I"/home/xenwithu/e2_studio/workspace/Day4_Nhiptim/ra/arm/CMSIS_6/CMSIS/Core/Include" -I"/home/xenwithu/e2_studio/workspace/Day4_Nhiptim/ra_gen" -I"/home/xenwithu/e2_studio/workspace/Day4_Nhiptim/ra_cfg/fsp_cfg/bsp" -I"/home/xenwithu/e2_studio/workspace/Day4_Nhiptim/ra_cfg/fsp_cfg" -std=c99 -Wno-stringop-overflow -Wno-format-truncation --param=min-pagesize=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" -x c "$<")
+	@echo Building file: $< && arm-none-eabi-gcc @"$@.in"
+

@@ -1,0 +1,8 @@
+14:16:08 **** Incremental Build of configuration Debug for project Daty3_Humidity_N_Temperature ****
+make -r -j8 all 
+arm-none-eabi-size --format=berkeley "Daty3_Humidity_N_Temperature.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12412	    112	   2072	  14596	   3904	Daty3_Humidity_N_Temperature.elf
+
+14:16:09 Build Finished. 0 errors, 0 warnings. (took 743ms)
+

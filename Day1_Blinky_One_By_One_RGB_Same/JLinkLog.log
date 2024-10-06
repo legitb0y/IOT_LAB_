@@ -1,0 +1,75 @@
+TF9C4E780 000:002.911   SEGGER J-Link V7.96j Log File
+TF9C4E780 000:003.033   DLL Compiled: May 29 2024 15:42:37
+TF9C4E780 000:003.036   Logging started @ 2024-09-03 18:09
+TF9C4E780 000:003.039   Process: /home/xenwithu/.eclipse/com.renesas.platform_1508544911/DebugComp/RA/e2-server-gdb
+TF9C4E780 000:003.042 - 3.042ms
+TF9C4E780 000:003.046 JLINK_GetDLLVersion()
+TF9C4E780 000:003.049 - 0.002ms returns 79610
+TF9C4E780 000:003.254 JLINK_OpenEx(...)
+TF9C4E780 000:007.582   Firmware: J-Link OB-S124 compiled Apr 23 2024 10:48:24
+TF9C4E780 000:008.570   Firmware: J-Link OB-S124 compiled Apr 23 2024 10:48:24
+TF9C4E780 000:037.405   Hardware: V1.00
+TF9C4E780 000:037.425   S/N: 831155721
+TF9C4E780 000:037.432   OEM: SEGGER
+TF9C4E780 000:037.437   Feature(s): None
+TF9C4E780 000:038.369   Bootloader: 2019 Oct 15
+TF9C4E780 000:039.463   USB speed mode: Full speed (12 MBit/s)
+TF9C4E780 000:040.382   TELNET listener socket opened on port 19021
+TF9C4E780 000:040.451   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+TF9C4E780 000:040.528   WEBSRV Webserver running on local port 19080
+TF9C4E780 000:040.544   Looking for J-Link GUI Server exe at: ARM/Segger_v7.96.10/JLinkGUIServerExe
+TF9C4E780 000:040.552   Looking for J-Link GUI Server exe at: /opt/SEGGER/JLink/JLinkGUIServerExe
+TF9C4E780 000:040.562   Forking J-Link GUI Server: /opt/SEGGER/JLink/JLinkGUIServerExe
+TF9C4E780 000:058.857   J-Link GUI Server info: "J-Link GUI server V7.88d "
+TF9C4E780 000:059.021   J-Link GUI Server: Connection breakdown.
+TF9C4E780 000:059.073 - 55.810ms returns "O.K."
+TF9C4E780 000:059.107 JLINK_ExecCommand("ProjectFile="/home/xenwithu/e2_studio/workspace/Day1_Blinky_One_By_One_RGB_Same/Day1_Blinky_One_By_One_RGB_Same Debug_Flat.jlink"", ...). 
+TF9C4E780 000:080.633 - 21.526ms returns 0x00
+TF9C4E780 000:080.759 JLINK_ExecCommand("device=R7FA4M1AB", ...). 
+TF9C4E780 000:083.194   Device "R7FA4M1AB" selected.
+TF9C4E780 000:083.307 - 2.543ms returns 0x00
+TF9C4E780 000:083.327 JLINK_ExecCommand("SetCPUConnectIDCODE = FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF", ...). 
+TF9C4E780 000:083.332 - 0.002ms returns 0x00
+TF9C4E780 000:083.336 JLINK_TIF_GetAvailable(...)
+TF9C4E780 000:083.837 - 0.501ms
+TF9C4E780 000:083.846 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+TF9C4E780 000:084.776 - 0.929ms returns 0x00
+TF9C4E780 000:084.786 JLINK_SetSpeed(4000)
+TF9C4E780 000:084.958 - 0.171ms
+TF9C4E780 000:084.966 JLINK_SetEndian(ARM_ENDIAN_LITTLE)
+TF9C4E780 000:084.969 - 0.003ms returns 0
+TF9C4E780 000:084.972 JLINK_SetInitRegsOnReset(OFF)
+TF9C4E780 000:084.975 - 0.003ms returns 1
+TF9C4E780 000:084.979 JLINK_SetResetType(JLINKARM_RESET_TYPE_NO_RESET)
+TF9C4E780 000:084.982 - 0.003ms returns JLINKARM_RESET_TYPE_NORMAL
+TF9C4E780 000:084.985 JLINK_ExecCommand("EnableFlashBPs", ...). 
+TF9C4E780 000:084.989 - 0.001ms returns 0x00
+TF9C4E780 000:084.993 JLINK_ExecCommand("SetAllowFlashCache = 1", ...). 
+TF9C4E780 000:084.997 - 0.001ms returns 0x01
+TF9C4E780 000:085.001 JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+TF9C4E780 000:085.006 - 0.001ms returns 0x01
+TF9C4E780 000:085.009 JLINK_EnableSoftBPs(ON)
+TF9C4E780 000:085.011 - 0.002ms
+TF9C4E780 000:085.015 JLINK_Connect()
+TF9C4E780 000:085.527   InitTarget() start
+TF9C4E780 000:085.534    J-Link Script File: Executing InitTarget()
+TF9C4E780 000:085.543   Identifying target device...
+TF9C4E780 000:085.547   SWD selected. Executing JTAG -> SWD switching sequence...
+TF9C4E780 000:086.568   Initializing DAP...
+TF9C4E780 000:089.528   DAP initialized successfully.
+TF9C4E780 000:098.445   Failed to authenticate debugger via IDCODE. Incorrect IDCODE?
+TF9C4E780 000:098.456   InitTarget() end - Took 12.9ms
+TF9C4E780 000:098.461   Connect failed. Resetting via Reset pin and trying again.
+TF9C4E780 000:159.410   InitTarget() start
+TF9C4E780 000:159.441    J-Link Script File: Executing InitTarget()
+TF9C4E780 000:159.447   Identifying target device...
+TF9C4E780 000:159.452   SWD selected. Executing JTAG -> SWD switching sequence...
+TF9C4E780 000:160.634   Initializing DAP...
+TF9C4E780 000:164.109   DAP initialized successfully.
+TF9C4E780 000:172.190   Failed to authenticate debugger via IDCODE. Incorrect IDCODE?
+TF9C4E780 000:172.214   InitTarget() end - Took 12.7ms
+TF9C4E780 000:172.219 - 87.204ms returns 0xFFFFFFFF
+TF9C4E780 003:908.185 JLINK_Close()
+TF9C4E780 003:920.035 - 11.850ms
+TF9C4E780 003:920.051   
+TF9C4E780 003:920.055   Closed
